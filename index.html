@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rio de Janeiro - Cidade Maravilhosa</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Cabeçalho -->
+    <header>
+        <div class="container">
+            <div class="header-content">
+                <div class="logo">Rio de Janeiro</div>
+                <nav>
+                    <ul>
+                        <li><a href="#sobre">Sobre</a></li>
+                        <li><a href="#atracoes">Atrações</a></li>
+                        <li><a href="#dicas">Dicas</a></li>
+                        <li><a href="#galeria">Galeria</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
+
+    <!-- Conteúdo Principal -->
+    <main>
+        <!-- Seção Hero -->
+        <section class="hero">
+            <div class="hero-content">
+                <h1>Rio de Janeiro - Cidade Maravilhosa</h1>
+                <p>Descubra as belezas naturais, cultura vibrante e pontos turísticos icônicos</p>
+            </div>
+        </section>
+
+        <div class="container">
+            <!-- Seção Sobre -->
+            <section id="sobre">
+                <h2>Sobre o Rio de Janeiro</h2>
+                <div class="about-content">
+                    <div class="about-text">
+                        <p>O Rio de Janeiro é uma grande cidade brasileira à beira-mar, famosa pelas praias de Copacabana e Ipanema, pela estátua de 38 metros de altura do Cristo Redentor, no topo do Corcovado, e pelo Pão de Açúcar, um pico de granito com teleféricos até seu cume.</p>
+                        <p>A cidade também é conhecida pelos grandes estádios de futebol, como o Maracanã, e pelo sambódromo da Marquês de Sapucaí, palco de desfiles durante o carnaval. O bairro da Lapa tem vida noturna animada e a Escadaria Selarón, com degraus revestidos de azulejos.</p>
+                        <p>Com uma população de mais de 6 milhões de habitantes, o Rio é a segunda maior cidade do Brasil e um dos principais destinos turísticos da América do Sul.</p>
+                    </div>
+                    <div class="about-image">
+                        <img src="https://source.unsplash.com/600x400/?rio-de-janeiro-panorama" alt="Panorama do Rio de Janeiro">
+                    </div>
+                </div>
+            </section>
+
+            <!-- Seção Atrações -->
+            <section id="atracoes">
+                <h2>Principais Atrações</h2>
+                <div class="attractions-grid">
+                    <div class="attraction-card">
+                        <img src="https://source.unsplash.com/600x400/?christ-the-redeemer" alt="Cristo Redentor">
+                        <div class="attraction-info">
+                            <h3>Cristo Redentor</h3>
+                            <p>Uma das sete maravilhas do mundo moderno, o Cristo Redentor oferece uma vista panorâmica deslumbrante da cidade.</p>
+                        </div>
+                    </div>
+                    <div class="attraction-card">
+                        <img src="https://source.unsplash.com/600x400/?sugarloaf-mountain" alt="Pão de Açúcar">
+                        <div class="attraction-info">
+                            <h3>Pão de Açúcar</h3>
+                            <p>Acesso por teleférico, o Pão de Açúcar proporciona uma vista espetacular da Baía de Guanabara e das praias.</p>
+                        </div>
+                    </div>
+                    <div class="attraction-card">
+                        <img src="https://source.unsplash.com/600x400/?copacabana-beach" alt="Praia de Copacabana">
+                        <div class="attraction-info">
+                            <h3>Praia de Copacabana</h3>
+                            <p>Famosa mundialmente por seu calçadão em forma de onda, é um dos cartões-postais mais conhecidos do Brasil.</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Seção Dicas -->
+            <section id="dicas">
+                <h2>Dicas para sua Visita</h2>
+                <div class="tips-content">
+                    <div class="tips-list">
+                        <div class="tip-item">
+                            <h3>Melhor Época para Visitar</h3>
+                            <p>De abril a outubro, quando o clima está mais ameno e as chuvas são menos frequentes.</p>
+                        </div>
+                        <div class="tip-item">
+                            <h3>Transporte</h3>
+                            <p>Use o metrô para se locomover com facilidade. Para locais mais afastados, aplicativos de transporte são uma boa opção.</p>
+                        </div>
+                        <div class="tip-item">
+                            <h3>Gastronomia</h3>
+                            <p>Experimente a feijoada, o churrasco e os frutos do mar. Não deixe de provar a caipirinha, bebida típica brasileira.</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Seção Galeria -->
+            <section id="galeria">
+                <h2>Galeria de Fotos</h2>
+                <div class="gallery-grid">
+                    <div class="gallery-item">
+                        <img src="https://source.unsplash.com/600x400/?ipanema-beach" alt="Praia de Ipanema">
+                    </div>
+                    <div class="gallery-item">
+                        <img src="https://source.unsplash.com/600x400/?selaron-steps" alt="Escadaria Selarón">
+                    </div>
+                    <div class="gallery-item">
+                        <img src="https://source.unsplash.com/600x400/?maracana-stadium" alt="Estádio do Maracanã">
+                    </div>
+                    <div class="gallery-item">
+                        <img src="https://source.unsplash.com/600x400/?tijuca-forest" alt="Floresta da Tijuca">
+                    </div>
+                </div>
+            </section>
+
+            <!-- Seção Interativa -->
+            <section class="interactive-section">
+                <div class="interactive-content">
+                    <h2>Curiosidades sobre o Rio</h2>
+                    <p>Clique no botão para descobrir uma curiosidade interessante sobre a cidade!</p>
+                    <button class="btn" id="showContentBtn">Mostrar Curiosidade</button>
+                    <button class="btn color-change-btn" id="changeColorBtn">Mudar Cor de Fundo</button>
+                    <div class="hidden-content" id="hiddenContent">
+                        <p>O Rio de Janeiro já foi capital do Brasil por quase 200 anos, de 1763 a 1960, quando a capital foi transferida para Brasília. Durante esse período, a cidade testemunhou importantes eventos históricos, como a chegada da família real portuguesa em 1808.</p>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </main>
+
+    <!-- Rodapé -->
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>Contato</h3>
+                    <p>Email: info@rioturismo.com</p>
+                    <p>Telefone: (21) 1234-5678</p>
+                </div>
+                <div class="footer-section">
+                    <h3>Links Úteis</h3>
+                    <ul>
+                        <li><a href="#">Site Oficial do Turismo</a></li>
+                        <li><a href="#">Transporte Público</a></li>
+                        <li><a href="#">Eventos Culturais</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h3>Siga-nos</h3>
+                    <ul>
+                        <li><a href="#">Facebook</a></li>
+                        <li><a href="#">Instagram</a></li>
+                        <li><a href="#">Twitter</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="copyright">
+                <p>&copy; 2023 Rio de Janeiro - Todos os direitos reservados</p>
+            </div>
+        </div>
+    </footer>
+
+<script src="./script.js"></script>
+</body>
+</html>
